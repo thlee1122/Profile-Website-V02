@@ -353,7 +353,12 @@ hr {
 #projects figure p > strong { 
 	width: 60px; 
 	display: inline-block; 
-	margin: 0px; 
+	margin: 0px;
+	font-size: 20px;
+}
+
+#projects figure p {
+	font-size: 17px;
 }
 
 #projects figure img { 
@@ -476,6 +481,10 @@ figure.effect:hover p {
 /*#contact {
 	padding-bottom: 200px;
 }*/
+
+.social {
+	margin-left: 80px;
+}
 
 #contact h2, #contact .row * {
 	color: #FFFFFF;
