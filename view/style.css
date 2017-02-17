@@ -347,18 +347,24 @@ hr {
 #projects figure h3 {
 	color: #FFF; 
 	font-weight: 600; 
-	margin-bottom: 5px; 
+	margin-bottom: 0px; 
 }
 
 #projects figure p > strong { 
-	width: 60px; 
+	width: 200px; 
 	display: inline-block; 
 	margin: 0px;
-	font-size: 20px;
+	font-size: 18px;
+	margin-bottom: -40px;
 }
 
 #projects figure p {
-	font-size: 17px;
+	font-size: 15px;
+	padding-top: -50px;
+}
+
+#projects figure ul {
+	margin-left: -20px;
 }
 
 #projects figure img { 
@@ -472,6 +478,21 @@ figure.effect p {
 }
 
 figure.effect:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect ul {
+	padding-top: 10px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover ul {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
