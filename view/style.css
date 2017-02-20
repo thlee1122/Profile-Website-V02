@@ -261,6 +261,10 @@ hr {
 	height: auto; 
 }
 
+/*Profile Photo*/
+#photo img{
+	border-radius: 10%;
+}
 /* Experience Section */
 #experiences #education .glyphicon-map-marker {
 	padding-top: 20px;
