@@ -264,6 +264,7 @@ hr {
 /*Profile Photo*/
 #photo img{
 	border-radius: 10%;
+	margin-top: 40px;
 }
 /* Experience Section */
 #experiences #education .glyphicon-map-marker {
